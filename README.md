@@ -134,7 +134,13 @@ diff_operation = '+'
 
 arr_10x10 = random_arr(num_of_rows = 10, num_of_columns = 10)
 _print_result_as('Ej. 4.1 - 10x10', compare_time_arr(arr_10x10, arr_scalar, diff_operation))
+-
 
+arr_1000x1000 = random_arr(num_of_rows = 1000, num_of_columns = 1000)
+_print_result_as('Ej. 4.2 - 1000x1000', compare_time_arr(arr_1000x1000, arr_scalar, diff_operation))
+
+arr_10000x10000 = random_arr(num_of_rows = 10000, num_of_columns = 10000)
+_print_result_as('Ej. 4.3 - 10000x10000', compare_time_arr(arr_10000x10000, arr_scalar, diff_operation))
 
 ```
 
